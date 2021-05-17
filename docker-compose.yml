@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+    linkding-backup:
+        build: .
+        env_file:
+            - .env
+        dns:
+            - 8.8.8.8
